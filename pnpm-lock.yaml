@@ -1,0 +1,30 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  chessops:
+    specifier: ^0.14.1
+    version: 0.14.1
+  slugify:
+    specifier: ^1.6.6
+    version: 1.6.6
+
+packages:
+
+  /@badrap/result@0.2.13:
+    resolution: {integrity: sha512-Qvyzz0dmGY0h8pwvBFo1BznAKf5Y5NXIDiqhPALWtfU7oHbAToCtPu4FlYQ3uysskSWLx8GUiyhe0nv0nDd/7Q==}
+    dev: false
+
+  /chessops@0.14.1:
+    resolution: {integrity: sha512-CnMcfypDVrl/+MkErK0YMAEvivAAnUQ/2f32C54F9HbmDVEDjvoXJYLnS//+4HWGLqGA5+yDs+Y2T0gsxxLgpQ==}
+    dependencies:
+      '@badrap/result': 0.2.13
+    dev: false
+
+  /slugify@1.6.6:
+    resolution: {integrity: sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==}
+    engines: {node: '>=8.0.0'}
+    dev: false
